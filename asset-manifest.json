@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.f86a9767.chunk.css",
-    "main.js": "./static/js/main.cddd2118.chunk.js",
-    "main.js.map": "./static/js/main.cddd2118.chunk.js.map",
+    "main.css": "./static/css/main.62b3993e.chunk.css",
+    "main.js": "./static/js/main.f109794a.chunk.js",
+    "main.js.map": "./static/js/main.f109794a.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b4d61910.js",
     "runtime-main.js.map": "./static/js/runtime-main.b4d61910.js.map",
     "static/js/2.c5d32ee8.chunk.js": "./static/js/2.c5d32ee8.chunk.js",
     "static/js/2.c5d32ee8.chunk.js.map": "./static/js/2.c5d32ee8.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.7fe9ea08a4ca7cfc083cd3452673d5fe.js": "./precache-manifest.7fe9ea08a4ca7cfc083cd3452673d5fe.js",
+    "precache-manifest.45127cd99d6feb0568bc0a0a1ae21c4d.js": "./precache-manifest.45127cd99d6feb0568bc0a0a1ae21c4d.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.f86a9767.chunk.css.map": "./static/css/main.f86a9767.chunk.css.map",
+    "static/css/main.62b3993e.chunk.css.map": "./static/css/main.62b3993e.chunk.css.map",
     "static/js/2.c5d32ee8.chunk.js.LICENSE": "./static/js/2.c5d32ee8.chunk.js.LICENSE",
     "static/media/App.css": "./static/media/fanwood-webfont.da77886b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.b4d61910.js",
     "static/js/2.c5d32ee8.chunk.js",
-    "static/css/main.f86a9767.chunk.css",
-    "static/js/main.cddd2118.chunk.js"
+    "static/css/main.62b3993e.chunk.css",
+    "static/js/main.f109794a.chunk.js"
   ]
 }
