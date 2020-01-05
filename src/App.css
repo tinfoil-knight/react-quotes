@@ -1,38 +1,71 @@
+@font-face {
+  font-family: 'Fanwood';
+  src: url('assets/fonts/fanwood-webfont.woff') format('woff');
+}
+
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:-webkit-any-link{
+  text-decoration: none;
+  color: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0 auto;
+  background-color: #000;
+  color: #FFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#container {
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  max-height: 100%;
+  overflow-y: hidden;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sidetext {
+  display: flex;
+  align-items: flex-end;
+  flex: 1;
+  height: 100%;
+  padding-bottom: 20vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#_1{
+  justify-content: flex-end;
+  font-size: 1.3vw;
+  font-style: oblique;
+  letter-spacing: 0.1em;
+}
+
+#_2{
+  justify-content: center;
+  font-size: 3vw;
+  font-weight: 800;
+}
+
+#content {
+  font-family: 'Fanwood', serif;
+  font-size: 4vw;
+  flex: 8;
+}
+
+#vertical {
+  transform: rotate(270deg);
+}
+
+button {
+  color: blue;
+  all: unset;
+  transition: all 400ms ease;
+}
+
+button:hover {
+  transform: rotate(20deg) scale(1.1);
 }
