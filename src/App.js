@@ -7,13 +7,13 @@ const App = (props) => {
   const [selected, setSelected] = useState(Math.floor(Math.random() * (props.quotes.length)))
   return (
     <div id = "container">
-      <div class = "sidetext" id="_1">
+      <div className = "sidetext" id="_1">
         <div id="vertical"><a href="http://classics.mit.edu/Antoninus/meditations.html">Meditations</a></div>
       </div>
       <div id = "content">
         <p>{props.quotes[selected]}</p>
       </div>
-      <div class = "sidetext" id = "_2">
+      <div className = "sidetext" id = "_2">
         <button onClick={() => setSelected(Math.floor(Math.random() * (props.quotes.length)))}>&#10227;</button>
       </div>
     </div>
