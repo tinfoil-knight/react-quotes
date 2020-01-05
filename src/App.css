@@ -3,9 +3,6 @@
   src: url('assets/fonts/fanwood-webfont.woff') format('woff');
 }
 
-.App {
-}
-
 a:-webkit-any-link{
   text-decoration: none;
   color: inherit;
@@ -35,6 +32,7 @@ body {
   flex: 1;
   height: 100%;
   padding-bottom: 20vh;
+  font-family: 'Fanwood', serif;
 }
 
 #_1{
