@@ -33,25 +33,28 @@ body {
   height: 100%;
   padding-bottom: 20vh;
   font-family: 'Fanwood', serif;
+  padding-bottom: 30vh;
 }
 
 #_1{
   justify-content: flex-end;
-  font-size: 1.3vw;
+  font-size: 21px;
   font-style: oblique;
   letter-spacing: 0.1em;
 }
 
 #_2{
   justify-content: center;
-  font-size: 3vw;
+  font-size: 64px;
   font-weight: 800;
+  padding-right: 5vh;
 }
 
 #content {
   font-family: 'Fanwood', serif;
-  font-size: 4vw;
+  font-size: 4.2vw;
   flex: 8;
+  padding-bottom: 20vh;
 }
 
 #vertical {
@@ -62,6 +65,7 @@ button {
   color: blue;
   all: unset;
   transition: all 400ms ease;
+  cursor: pointer;
 }
 
 button:hover {

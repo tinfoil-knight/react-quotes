@@ -14,7 +14,7 @@ const App = (props) => {
         <p>{props.quotes[selected]}</p>
       </div>
       <div className = "sidetext" id = "_2">
-        <button onClick={() => setSelected(Math.floor(Math.random() * (props.quotes.length)))}>&#10227;</button>
+        <button onClick={() => setSelected(Math.floor(Math.random() * (props.quotes.length)))}>&#62;</button>
       </div>
     </div>
   )
